@@ -7,7 +7,7 @@ var clear = document.querySelector('#clear')
 
 button.addEventListener('click', function (event) {
     var image = document.createElement('img');
-    image.src = 'https://cdn.glitch.com/706c81d7-b126-438a-b1fd-7b7f31bcf467%2F%E6%89%8B%E7%BB%98%E5%8D%A1%E9%80%9A%E8%84%9A%E5%8D%B0%E5%85%83%E7%B4%A0.png?v=1616691150176';
+    image.src = 'footprint.png';
     image.style.left = (100 * Math.random()) + '%';
     image.style.top = (100 * Math.random()) + '%';
     container.appendChild(image);
