@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>JavaScript DOM Manipulation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>JS DOM</title>
     
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css" /> 
     
-    <!-- import the webpage's javascript file -->
-    <script src="./script.js" defer></script>
-  </head>  
+    <script src="/script.js" defer></script>
+  </head>
   
-  <h1 onclick="changeText(this)">Try click on this text</h1>
+  <body>
+    
+     <div class="background">
+      <img src="https://cdn.glitch.com/82e3bc67-a491-459e-8fd4-76fc5df23096%2Fpet.png?v=1620670502018">
+    </div>
+    <h1>Interact with your Pet</h1>
+    
+      <div id="container">
   
-  <div class="click">
-  <button id="click">Click</button>
-  </div>
+      <div class="count" id="textCountId"> 0 item(s)</div>
+    
+        <p> change your background</p>
+     <div class="box1 swatch" id="box1Id" ></div>
+    <div class="box2 swatch" id="box2Id" ></div>
+    <div class="box3 swatch" id="box3Id" ></div>
+    
+   
+        
+    <button id="clickSleep" class="button">Sleep</button>
+    <button id="clickFeed" class="button">Food</button>
+    <button id="clickGame" class="button">Play</button>
   
-  <div class="clear">
-  <button id="clear">Clear</button>
-  </div>
-  
-  <div id="container">
+    <button class="clear" id="clear"> Clean </button>
+   
 </div>
   
+  </body>
 </html>

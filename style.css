@@ -1,43 +1,99 @@
-/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-button{
-  font-size: 16px;
-  background-color: #DA4541; 
-  color: white;
-  border-radius: 8px;
-  transition-duration: 0.4s;
-  border: 2px solid #C7302C;
-  padding: 14px 40px;
+html {
+  background-color:#fff;
+  width: auto;
+  height: 500px;
+  overflow-x: hidden; 
 }
 
-button:hover {
-  background-color: white;
-  color:#C7302C; 
+#container {
+  margin-top: 20px;
+} 
+
+
+img{
+  position:absolute;
+  width:10rem;
+  height:10rem;
+}
+
+#background{
+  align-content: center;
+  position:absolute;
+}
+
+.box1{
+  border:2px solid black;
+  height:40px;
+  width:40px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-left:50px;
+  margin-bottom:10px;
+  background-color: #A9CCE3;
+}
+
+.box2{
+  border:2px solid black;
+  height:40px;
+  width:40px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-left:50px;
+  margin-bottom:10px;
+  background-color: #F9E79F;
+}
+
+.box3{
+  background-color: #A9DFBF;
+  border:2px solid black;
+  height:40px;
+  width:40px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-bottom:10px;
+  margin-left:50px;
+}
+
+p{
+  margin-top:10%;
+  width:100px;
+  text-align:center;
+  margin-left:35px;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1{
-  top:0px;
-  font-family:'Bebas Neue', cursive;
-  font-size: 40px;
-  letter-spacing: 2px;
-  color:#C7302C; 
-  padding: 10px;
-  border-radius: 5px 5px 0 0;
-  text-align:center;
+  width:200px;
+  margin-left:160px;
+  position:absolute;
+  font-family: 'Nunito', sans-serif;
 }
 
-.click{
+.button {
+  width: 8rem;
+  height: 3rem;
+  background: #fff;
+  cursor: pointer;
+  margin-left:150px;
   margin-top: 10%;
-  margin-left: 15%;
+  text-align:center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.count{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left:45%;
+  font-family: 'Nunito', sans-serif;
 }
 
 .clear{
-  margin-top: 10%;
-  margin-left: 15%;
-}
-
-img {
-  position: absolute;
-  width: 20%;
-  height: 40%;
+  width: 140px;
+  height: 50px;
+  background: #fff;
+  cursor: pointer;
+  margin-left:150px;
+  margin-top: 20px;
 }
