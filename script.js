@@ -14,7 +14,7 @@ var box3Id = document.querySelector('#box3Id');
 button.addEventListener('click', function(event) {
   let image = document.createElement('img');
   image.classList.add('new-content');
-  image.src = 'https://cdn.glitch.com/82e3bc67-a491-459e-8fd4-76fc5df23096%2Fsleep.png?v=1620670086886';
+  image.src = './sleep.png';
   image.style.right = (80 * Math.random()) + '%';
   image.style.top = (90 * Math.random()) + '%';
   container.appendChild(image);
@@ -32,7 +32,7 @@ button.addEventListener('click', function(event) {
 button2.addEventListener('click', function(event) {
   let image = document.createElement('img');
   image.classList.add('new-content');
-  image.src = 'https://cdn.glitch.com/82e3bc67-a491-459e-8fd4-76fc5df23096%2Ffood.png?v=1620670088015';
+  image.src = './food.png';
   image.style.right = (80 * Math.random()) + '%';
   image.style.top = (90 * Math.random()) + '%';
   container.appendChild(image);
@@ -49,7 +49,7 @@ button2.addEventListener('click', function(event) {
 button3.addEventListener('click', function(event) {
   let image = document.createElement('img');
   image.classList.add('new-content');
-  image.src = 'https://cdn.glitch.com/82e3bc67-a491-459e-8fd4-76fc5df23096%2Fplay.png?v=1620670086817';
+  image.src = './play.png';
   image.style.right = (80 * Math.random()) + '%';
   image.style.top = (90 * Math.random()) + '%';
   container.appendChild(image);
